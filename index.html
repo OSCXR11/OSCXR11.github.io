@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+      Height (cm):
+      <input
+        type="number"
+        id="height"
+        placeholder="Enter Height in cm"
+        class="input"
+      />
+
+      Weight (kg):
+      <input
+        type="number"
+        id="weight"
+        placeholder="Enter Weight in kg"
+        class="input"
+      />
+
+      <button type="button" name="button" id="btn" class="btn">
+        Compute BMI
+      </button>
+      <input disabled type="number" id="result" class="input" />
+
+      <h4 class="info-text" id="weight-condition">Weight Condition:</h4>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
